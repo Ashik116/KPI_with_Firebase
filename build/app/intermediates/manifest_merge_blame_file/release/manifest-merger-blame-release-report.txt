@@ -1,0 +1,307 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kpi.regnumold.v"
+4    android:versionCode="3"
+5    android:versionName="1.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:3:5-79
+11-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:3:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:4:22-64
+13
+14    <application
+14-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:5:4-42:19
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.6.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\14b93615368c2249f1830e26ca064ab5\core-1.6.0\AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="Regnum KPI" >
+17-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:6:9-35
+18        <activity
+18-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:8:9-36:20
+19            android:name="com.kpi.regnumold.v.MainActivity"
+19-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:9:13-41
+20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+20-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:12:13-163
+21            android:hardwareAccelerated="true"
+21-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:13:13-47
+22            android:launchMode="singleTop"
+22-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:10:13-43
+23            android:theme="@style/LaunchTheme"
+23-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:11:13-47
+24            android:windowSoftInputMode="adjustResize" >
+24-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:14:13-55
+25
+26            <!--
+27                 Specifies an Android theme to apply to this Activity as soon as
+28                 the Android process has started. This theme is visible to the user
+29                 while the Flutter UI initializes. After that, this theme continues
+30                 to determine the Window background behind the Flutter UI.
+31            -->
+32            <meta-data
+32-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:19:13-22:17
+33                android:name="io.flutter.embedding.android.NormalTheme"
+33-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:20:15-70
+34                android:resource="@style/NormalTheme" />
+34-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:21:15-52
+35            <!--
+36                 Displays an Android View that continues showing the launch screen
+37                 Drawable until Flutter paints its first frame, then this splash
+38                 screen fades out. A splash screen is useful to avoid any visual
+39                 gap between the end of Android's launch screen and the painting of
+40                 Flutter's first frame.
+41            -->
+42            <meta-data
+42-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:28:13-31:17
+43                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+43-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:29:15-79
+44                android:resource="@drawable/launch_background" />
+44-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:30:15-61
+45
+46            <intent-filter>
+46-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:32:13-35:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:33:17-68
+47-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:33:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:34:17-76
+49-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:34:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:39:9-41:33
+57            android:name="flutterEmbedding"
+57-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:40:13-44
+58            android:value="2" />
+58-->C:\Users\Regnum IT\StudioProjects\RegnumKPI\android\app\src\main\AndroidManifest.xml:41:13-30
+59
+60        <service
+60-->[:firebase_auth] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[:firebase_auth] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+64            <meta-data
+64-->[:firebase_auth] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+65-->[:firebase_auth] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:firebase_auth] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+67            <meta-data
+67-->[:firebase_database] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+68-->[:firebase_database] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:10:17-127
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_database] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_database\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+70            <meta-data
+70-->[:firebase_storage] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+71-->[:firebase_storage] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:firebase_storage] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+73            <meta-data
+73-->[:cloud_firestore] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+74-->[:cloud_firestore] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:cloud_firestore] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[:firebase_core] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+77-->[:firebase_core] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[:firebase_core] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\50f63e17caca2b851f804bbbf7a394c2\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+83                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+83-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\50f63e17caca2b851f804bbbf7a394c2\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\50f63e17caca2b851f804bbbf7a394c2\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\9c369bd6abc3852663b4e5f4caccd1b1\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+86                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+86-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\9c369bd6abc3852663b4e5f4caccd1b1\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\9c369bd6abc3852663b4e5f4caccd1b1\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+89                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+89-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-database:20.0.3] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\7867b154f60011f124da44b73f036811\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+91        </service>
+92
+93        <provider
+93-->[:image_picker_android] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+94            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+94-->[:image_picker_android] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:9:13-82
+95            android:authorities="com.kpi.regnumold.v.flutter.image_provider"
+95-->[:image_picker_android] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:10:13-74
+96            android:exported="false"
+96-->[:image_picker_android] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+97            android:grantUriPermissions="true" >
+97-->[:image_picker_android] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+98            <meta-data
+98-->[:image_picker_android] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:75
+99                android:name="android.support.FILE_PROVIDER_PATHS"
+99-->[:image_picker_android] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+100                android:resource="@xml/flutter_image_picker_file_paths" />
+100-->[:image_picker_android] C:\Users\Regnum IT\StudioProjects\RegnumKPI\build\image_picker_android\intermediates\library_manifest\release\AndroidManifest.xml:15:17-72
+101        </provider>
+102
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+104            android:name="androidx.window.extensions"
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+106        <uses-library
+106-->[androidx.window:window:1.0.0-beta04] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+107            android:name="androidx.window.sidecar"
+107-->[androidx.window:window:1.0.0-beta04] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+108            android:required="false" />
+108-->[androidx.window:window:1.0.0-beta04] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\cea45e25bbe77c9713c39e234ccfd7bd\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+109
+110        <activity
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+111            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+112            android:excludeFromRecents="true"
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+113            android:exported="true"
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+114            android:launchMode="singleTask"
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+115            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+116            <intent-filter>
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+117                <action android:name="android.intent.action.VIEW" />
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+120                <category android:name="android.intent.category.BROWSABLE" />
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+121
+122                <data
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+123                    android:host="firebase.auth"
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+124                    android:path="/"
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+125                    android:scheme="genericidp" />
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+126            </intent-filter>
+127        </activity>
+128        <activity
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+129            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+130            android:excludeFromRecents="true"
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+131            android:exported="true"
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+132            android:launchMode="singleTask"
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+133            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+134            <intent-filter>
+134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+135                <action android:name="android.intent.action.VIEW" />
+135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+135-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+136
+137                <category android:name="android.intent.category.DEFAULT" />
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+138                <category android:name="android.intent.category.BROWSABLE" />
+138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+139
+140                <data
+140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+141                    android:host="firebase.auth"
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+142                    android:path="/"
+142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+143                    android:scheme="recaptcha" />
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+144            </intent-filter>
+145        </activity>
+146
+147        <service
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+148            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+149            android:enabled="true"
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+150            android:exported="false" >
+150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+151            <intent-filter>
+151-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+152                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+153
+154                <category android:name="android.intent.category.DEFAULT" />
+154-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+154-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\a019e4e63ad7a70d0f2aebf4e86fe327\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+155            </intent-filter>
+156        </service>
+157
+158        <provider
+158-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+159            android:name="com.google.firebase.provider.FirebaseInitProvider"
+159-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+160            android:authorities="com.kpi.regnumold.v.firebaseinitprovider"
+160-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+161            android:directBootAware="true"
+161-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+162            android:exported="false"
+162-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+163            android:initOrder="100" />
+163-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\e9bee4f77b660f6ff89d0b5e41260363\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+164
+165        <activity
+165-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\6627ebe7ef94065a47e7e8e9d66c6a9d\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+166            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+166-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\6627ebe7ef94065a47e7e8e9d66c6a9d\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+167            android:exported="false"
+167-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\6627ebe7ef94065a47e7e8e9d66c6a9d\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+168            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+168-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\6627ebe7ef94065a47e7e8e9d66c6a9d\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\0c11252d9d87559920ca1b1a0bcd2692\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\0c11252d9d87559920ca1b1a0bcd2692\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\Regnum IT\.gradle\caches\transforms-2\files-2.1\0c11252d9d87559920ca1b1a0bcd2692\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+173    </application>
+174
+175</manifest>

@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/kpi/regnumold/v/BuildConfig.java
+ com.kpi.regnumold.v.BuildConfig
